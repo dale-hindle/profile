@@ -1,0 +1,84 @@
+/*background-color, font-family, color, font-size and line-height for the <body>.
+font-family: 'Questrial', sans-serif;
+font-family: 'Exo', sans-serif;
+ color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers*/
+body {
+  background-color: rgb(210, 210, 210);
+  font-family:'Questrial', sans-serif;
+  color: #627C85;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  color: #2C4251;
+  font-family: 'Exo', sans-serif;
+  font-size: 35px;
+  line-height: 30px;
+}
+
+a {
+  color: #DB5461;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2C4251;
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.test {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card {
+  border-radius: 1px;
+  background-color: rgb(3, 3, 3);
+  box-shadow: 1px 1px 1px black;
+  padding: 20px 20px 20px 20px;
+  margin: 10px;
+}
+
+.link {
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: rgb(350, 350, 350);
+  box-shadow: 1px 1px 1px black;
+  margin: 10px;
+  display: inline-block;
+  padding: 25px 20px 25px 20px;
+
+  }
+
+.profile {
+  border: 5px solid #2C4251;
+  border-radius: 100%;
+}
+
+td {
+  font-size: 55px;
+}
+
+h1 {
+  font-size: 70px;
+}
+tr, td {
+  border: 1px solid black;
+}
+h2 {
+  line-height: 40px;
+}
+th {
+  font-size: 50px;
+}
+
+h5 {
+  font-size: 18px;
+}
